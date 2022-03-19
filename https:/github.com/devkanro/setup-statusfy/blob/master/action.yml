@@ -1,7 +1,0 @@
-steps:
-- uses: actions/checkout@v1
-- name: Generate incident
-  uses: devkanro/setup-statusfy@v1
-  with:
-    github-token: ${{ secrets.GITHUB_TOKEN }}
-    branch: master
